@@ -5,7 +5,7 @@ import './Header.css'; // Import the CSS file
 const Header = ({ onSearch }) => {
   return (
     <header className="header">
-      <div className="logo">SR Movies</div>
+      <div className="logo"> Movies</div>
       <nav className="nav">
         <ul>
           <li><a href="#">Home</a></li>
@@ -13,7 +13,7 @@ const Header = ({ onSearch }) => {
           <li><a href="#">About Us</a></li>
         </ul>
       </nav>
-      <SearchBar onSearch={onSearch} />
+      {/* <SearchBar onSearch={onSearch} /> */}
     </header>
   );
 };
