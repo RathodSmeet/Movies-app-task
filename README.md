@@ -1,3 +1,6 @@
+ I have taken API from https://www.themoviedb.org/
+ My Account https://www.themoviedb.org/u/Smeetrathod
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
