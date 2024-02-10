@@ -9,7 +9,7 @@ const MovieDetails = ({ title, overview, voteAverage,posterPath }) => {
       <div class="card-body">
         <h5 class="card-title">{title}</h5>
         <p class="card-text">{overview}</p>
-        <a href="#" class="btn btn-warning"> <FaStar className='mb-1'/> {voteAverage}</a>
+        <a href="/" class="btn btn-warning"> <FaStar className='mb-1'/> {voteAverage}</a>
       </div>
     </div>
   );
